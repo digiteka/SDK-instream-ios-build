@@ -1,0 +1,11 @@
+framework module InStreamSDK {
+  umbrella header "InStreamSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module InStreamSDK.Swift {
+  header "InStreamSDK-Swift.h"
+  requires objc
+}

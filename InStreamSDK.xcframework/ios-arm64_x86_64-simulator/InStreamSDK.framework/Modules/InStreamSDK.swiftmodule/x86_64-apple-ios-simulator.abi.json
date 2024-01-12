@@ -1,0 +1,4283 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTKISLoggerDelegate",
+        "printedName": "DTKISLoggerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "InStreamWarn",
+            "printedName": "InStreamWarn(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK19DTKISLoggerDelegateP0aB4Warn7messageySS_tF",
+            "mangledName": "$s11InStreamSDK19DTKISLoggerDelegateP0aB4Warn7messageySS_tF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InStreamSDK.DTKISLoggerDelegate>",
+            "sugared_genericSig": "<Self where Self : InStreamSDK.DTKISLoggerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "InStreamError",
+            "printedName": "InStreamError(message:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK19DTKISLoggerDelegateP0aB5Error7message5errorySS_s0F0_pSgtF",
+            "mangledName": "$s11InStreamSDK19DTKISLoggerDelegateP0aB5Error7message5errorySS_s0F0_pSgtF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InStreamSDK.DTKISLoggerDelegate>",
+            "sugared_genericSig": "<Self where Self : InStreamSDK.DTKISLoggerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11InStreamSDK19DTKISLoggerDelegateP",
+        "mangledName": "$s11InStreamSDK19DTKISLoggerDelegateP",
+        "moduleName": "InStreamSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VisiblePlayerPosition",
+        "printedName": "VisiblePlayerPosition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "TOP_START",
+            "printedName": "TOP_START",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.VisiblePlayerPosition.Type) -> InStreamSDK.VisiblePlayerPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisiblePlayerPosition",
+                        "printedName": "InStreamSDK.VisiblePlayerPosition",
+                        "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO9TOP_STARTyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9TOP_STARTyA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "TOP_END",
+            "printedName": "TOP_END",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.VisiblePlayerPosition.Type) -> InStreamSDK.VisiblePlayerPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisiblePlayerPosition",
+                        "printedName": "InStreamSDK.VisiblePlayerPosition",
+                        "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO7TOP_ENDyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO7TOP_ENDyA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "BOTTOM_START",
+            "printedName": "BOTTOM_START",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.VisiblePlayerPosition.Type) -> InStreamSDK.VisiblePlayerPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisiblePlayerPosition",
+                        "printedName": "InStreamSDK.VisiblePlayerPosition",
+                        "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO12BOTTOM_STARTyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO12BOTTOM_STARTyA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "BOTTOM_END",
+            "printedName": "BOTTOM_END",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.VisiblePlayerPosition.Type) -> InStreamSDK.VisiblePlayerPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisiblePlayerPosition",
+                        "printedName": "InStreamSDK.VisiblePlayerPosition",
+                        "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO10BOTTOM_ENDyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO10BOTTOM_ENDyA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VisiblePlayerPosition",
+                "printedName": "InStreamSDK.VisiblePlayerPosition",
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VisiblePlayerPosition",
+                "printedName": "InStreamSDK.VisiblePlayerPosition",
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO2eeoiySbAC_ACtFZ",
+            "moduleName": "InStreamSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO9hashValueSivp",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9hashValueSivp",
+            "moduleName": "InStreamSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO9hashValueSivg",
+                "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9hashValueSivg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO4hash4intoys6HasherVz_tF",
+            "moduleName": "InStreamSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11InStreamSDK21VisiblePlayerPositionO",
+        "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VisiblePlayer",
+        "printedName": "VisiblePlayer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidScroll",
+            "printedName": "viewDidScroll(mainPlayerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK13VisiblePlayerP13viewDidScroll04mainE4ViewyAA04MaineJ0C_tF",
+            "mangledName": "$s11InStreamSDK13VisiblePlayerP13viewDidScroll04mainE4ViewyAA04MaineJ0C_tF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InStreamSDK.VisiblePlayer>",
+            "sugared_genericSig": "<Self where Self : InStreamSDK.VisiblePlayer>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11InStreamSDK13VisiblePlayerP",
+        "mangledName": "$s11InStreamSDK13VisiblePlayerP",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTKISConfig",
+        "printedName": "DTKISConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mdtk",
+            "printedName": "mdtk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK11DTKISConfigC4mdtkSSvp",
+            "mangledName": "$s11InStreamSDK11DTKISConfigC4mdtkSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK11DTKISConfigC4mdtkSSvg",
+                "mangledName": "$s11InStreamSDK11DTKISConfigC4mdtkSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK11DTKISConfigC4mdtkSSvs",
+                "mangledName": "$s11InStreamSDK11DTKISConfigC4mdtkSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK11DTKISConfigC4mdtkSSvM",
+                "mangledName": "$s11InStreamSDK11DTKISConfigC4mdtkSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugMode",
+            "printedName": "debugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK11DTKISConfigC9debugModeSbvp",
+            "mangledName": "$s11InStreamSDK11DTKISConfigC9debugModeSbvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK11DTKISConfigC9debugModeSbvg",
+                "mangledName": "$s11InStreamSDK11DTKISConfigC9debugModeSbvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK11DTKISConfigC9debugModeSbvs",
+                "mangledName": "$s11InStreamSDK11DTKISConfigC9debugModeSbvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK11DTKISConfigC9debugModeSbvM",
+                "mangledName": "$s11InStreamSDK11DTKISConfigC9debugModeSbvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:debugMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISConfig",
+                "printedName": "InStreamSDK.DTKISConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK11DTKISConfigC4mdtk9debugModeACSS_Sbtcfc",
+            "mangledName": "$s11InStreamSDK11DTKISConfigC4mdtk9debugModeACSS_Sbtcfc",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISConfig",
+                "printedName": "InStreamSDK.DTKISConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InStreamSDK@objc(cs)DTKISConfig(im)init",
+            "mangledName": "$s11InStreamSDK11DTKISConfigCACycfc",
+            "moduleName": "InStreamSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InStreamSDK@objc(cs)DTKISConfig",
+        "mangledName": "$s11InStreamSDK11DTKISConfigC",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayMode",
+        "printedName": "PlayMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.PlayMode.Type) -> InStreamSDK.PlayMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.PlayMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayMode",
+                        "printedName": "InStreamSDK.PlayMode",
+                        "usr": "s:11InStreamSDK8PlayModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK8PlayModeO4useryA2CmF",
+            "mangledName": "$s11InStreamSDK8PlayModeO4useryA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "auto",
+            "printedName": "auto",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.PlayMode.Type) -> InStreamSDK.PlayMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.PlayMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayMode",
+                        "printedName": "InStreamSDK.PlayMode",
+                        "usr": "s:11InStreamSDK8PlayModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK8PlayModeO4autoyA2CmF",
+            "mangledName": "$s11InStreamSDK8PlayModeO4autoyA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "scroll",
+            "printedName": "scroll",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.PlayMode.Type) -> InStreamSDK.PlayMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.PlayMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayMode",
+                        "printedName": "InStreamSDK.PlayMode",
+                        "usr": "s:11InStreamSDK8PlayModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK8PlayModeO6scrollyA2CmF",
+            "mangledName": "$s11InStreamSDK8PlayModeO6scrollyA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayMode",
+                "printedName": "InStreamSDK.PlayMode",
+                "usr": "s:11InStreamSDK8PlayModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayMode",
+                "printedName": "InStreamSDK.PlayMode",
+                "usr": "s:11InStreamSDK8PlayModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK8PlayModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11InStreamSDK8PlayModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "InStreamSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK8PlayModeO9hashValueSivp",
+            "mangledName": "$s11InStreamSDK8PlayModeO9hashValueSivp",
+            "moduleName": "InStreamSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK8PlayModeO9hashValueSivg",
+                "mangledName": "$s11InStreamSDK8PlayModeO9hashValueSivg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK8PlayModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11InStreamSDK8PlayModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "InStreamSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11InStreamSDK8PlayModeO",
+        "mangledName": "$s11InStreamSDK8PlayModeO",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MainPlayerView",
+        "printedName": "MainPlayerView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initMainPlayerView",
+            "printedName": "initMainPlayerView(mdtk:zone:src:urlreferrer:gdprconsentstring:tagparam:playMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayMode",
+                "printedName": "InStreamSDK.PlayMode",
+                "usr": "s:11InStreamSDK8PlayModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK14MainPlayerViewC04initdeF04mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0OtFZ",
+            "mangledName": "$s11InStreamSDK14MainPlayerViewC04initdeF04mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0OtFZ",
+            "moduleName": "InStreamSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIn",
+            "printedName": "setIn(containerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK14MainPlayerViewC03setA009containerF0ySo6UIViewC_tF",
+            "mangledName": "$s11InStreamSDK14MainPlayerViewC03setA009containerF0ySo6UIViewC_tF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidScroll",
+            "printedName": "viewDidScroll(scrollView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK14MainPlayerViewC13viewDidScroll06scrollF0ySo08UIScrollF0C_tF",
+            "mangledName": "$s11InStreamSDK14MainPlayerViewC13viewDidScroll06scrollF0ySo08UIScrollF0C_tF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView(im)initWithFrame:",
+            "mangledName": "$s11InStreamSDK14MainPlayerViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "InStreamSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InStreamSDK.MainPlayerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerView",
+                    "printedName": "InStreamSDK.MainPlayerView",
+                    "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView(im)initWithCoder:",
+            "mangledName": "$s11InStreamSDK14MainPlayerViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "InStreamSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView",
+        "mangledName": "$s11InStreamSDK14MainPlayerViewC",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MainPlayerViewRepresentable",
+        "printedName": "MainPlayerViewRepresentable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:zone:src:urlreferrer:gdprconsentstring:tagparam:playMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerViewRepresentable",
+                "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayMode",
+                "printedName": "InStreamSDK.PlayMode",
+                "usr": "s:11InStreamSDK8PlayModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV4mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0Otcfc",
+            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV4mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0Otcfc",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<InStreamSDK.MainPlayerViewRepresentable>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerViewRepresentable",
+                    "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                    "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV10makeUIView7contextAA0deF0C7SwiftUI0iG7ContextVyACG_tF",
+            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV10makeUIView7contextAA0deF0C7SwiftUI0iG7ContextVyACG_tF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<InStreamSDK.MainPlayerViewRepresentable>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerViewRepresentable",
+                    "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                    "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV12updateUIView_7contextyAA0deF0C_7SwiftUI0iG7ContextVyACGtF",
+            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV12updateUIView_7contextyAA0deF0C_7SwiftUI0iG7ContextVyACGtF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV",
+        "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerView",
+                    "printedName": "InStreamSDK.MainPlayerView",
+                    "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTKISVisiblePlayerConfig",
+        "printedName": "DTKISVisiblePlayerConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "playerPosition",
+            "printedName": "playerPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VisiblePlayerPosition",
+                "printedName": "InStreamSDK.VisiblePlayerPosition",
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0Ovp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0Ovp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0Ovg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0Ovg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0Ovs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0Ovs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0OvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPositionAA07VisibleeH0OvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "widthPercent",
+            "printedName": "widthPercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ratio",
+            "printedName": "ratio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalMargin",
+            "printedName": "horizontalMargin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin12CoreGraphics7CGFloatVvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin12CoreGraphics7CGFloatVvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin12CoreGraphics7CGFloatVvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC16horizontalMargin12CoreGraphics7CGFloatVvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verticalMargin",
+            "printedName": "verticalMargin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin12CoreGraphics7CGFloatVvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin12CoreGraphics7CGFloatVvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin12CoreGraphics7CGFloatVvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14verticalMargin12CoreGraphics7CGFloatVvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(playerPosition:widthPercent:ratio:horizontalMargin:verticalMargin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISVisiblePlayerConfig",
+                "printedName": "InStreamSDK.DTKISVisiblePlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISVisiblePlayerConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VisiblePlayerPosition",
+                "printedName": "InStreamSDK.VisiblePlayerPosition",
+                "hasDefaultArg": true,
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPosition12widthPercent5ratio16horizontalMargin08verticalM0AcA07VisibleeH0O_14CoreFoundation7CGFloatVSSA2Mtcfc",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPosition12widthPercent5ratio16horizontalMargin08verticalM0AcA07VisibleeH0O_12CoreGraphics7CGFloatVSSA2Mtcfc",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISVisiblePlayerConfig",
+                "printedName": "InStreamSDK.DTKISVisiblePlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISVisiblePlayerConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InStreamSDK@objc(cs)DTKISVisiblePlayerConfig(im)init",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigCACycfc",
+            "moduleName": "InStreamSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InStreamSDK@objc(cs)DTKISVisiblePlayerConfig",
+        "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InStream",
+        "printedName": "InStream",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InStream",
+                "printedName": "InStreamSDK.InStream",
+                "usr": "s:11InStreamSDK0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK0aB0C6sharedACvpZ",
+            "mangledName": "$s11InStreamSDK0aB0C6sharedACvpZ",
+            "moduleName": "InStreamSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InStream",
+                    "printedName": "InStreamSDK.InStream",
+                    "usr": "s:11InStreamSDK0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK0aB0C6sharedACvgZ",
+                "mangledName": "$s11InStreamSDK0aB0C6sharedACvgZ",
+                "moduleName": "InStreamSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISConfig",
+                "printedName": "InStreamSDK.DTKISConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB0C10initialize6configyAA11DTKISConfigC_tKF",
+            "mangledName": "$s11InStreamSDK0aB0C10initialize6configyAA11DTKISConfigC_tKF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLoggerDelegate",
+            "printedName": "setLoggerDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InStreamSDK.DTKISLoggerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTKISLoggerDelegate",
+                    "printedName": "InStreamSDK.DTKISLoggerDelegate",
+                    "usr": "s:11InStreamSDK19DTKISLoggerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB0C17setLoggerDelegateyyAA011DTKISLoggerF0_pSgF",
+            "mangledName": "$s11InStreamSDK0aB0C17setLoggerDelegateyyAA011DTKISLoggerF0_pSgF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initMainPlayerWith",
+            "printedName": "initMainPlayerWith(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB0C18initMainPlayerWith6configAA0eF4ViewCAA09DTKISMainF6ConfigC_tKF",
+            "mangledName": "$s11InStreamSDK0aB0C18initMainPlayerWith6configAA0eF4ViewCAA09DTKISMainF6ConfigC_tKF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initVisiblePlayerWith",
+            "printedName": "initVisiblePlayerWith(config:in:scrollView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VisiblePlayer",
+                "printedName": "InStreamSDK.VisiblePlayer",
+                "usr": "s:11InStreamSDK13VisiblePlayerP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISVisiblePlayerConfig",
+                "printedName": "InStreamSDK.DTKISVisiblePlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISVisiblePlayerConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB0C21initVisiblePlayerWith6config2in10scrollViewAA0eF0_pAA012DTKISVisibleF6ConfigC_So6UIViewCSo08UIScrollK0CtF",
+            "mangledName": "$s11InStreamSDK0aB0C21initVisiblePlayerWith6config2in10scrollViewAA0eF0_pAA012DTKISVisibleF6ConfigC_So6UIViewCSo08UIScrollK0CtF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initMainPlayerRepresentable",
+            "printedName": "initMainPlayerRepresentable(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerViewRepresentable",
+                "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB0C27initMainPlayerRepresentable6configAA0ef4ViewG0VAA09DTKISMainF6ConfigC_tKF",
+            "mangledName": "$s11InStreamSDK0aB0C27initMainPlayerRepresentable6configAA0ef4ViewG0VAA09DTKISMainF6ConfigC_tKF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11InStreamSDK0aB0C",
+        "mangledName": "$s11InStreamSDK0aB0C",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTKISMainPlayerConfig",
+        "printedName": "DTKISMainPlayerConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zone",
+            "printedName": "zone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvp",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvg",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvs",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvM",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC4zoneSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "src",
+            "printedName": "src",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC3srcSSvp",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC3srcSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC3srcSSvg",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC3srcSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC3srcSSvs",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC3srcSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC3srcSSvM",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC3srcSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlreferrer",
+            "printedName": "urlreferrer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvp",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvg",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvs",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvM",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC11urlreferrerSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gdprconsentstring",
+            "printedName": "gdprconsentstring",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvp",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvg",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvs",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvM",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC17gdprconsentstringSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tagparam",
+            "printedName": "tagparam",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvp",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvg",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvs",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvM",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8tagparamSSvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playMode",
+            "printedName": "playMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayMode",
+                "printedName": "InStreamSDK.PlayMode",
+                "usr": "s:11InStreamSDK8PlayModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0Ovp",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0Ovp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0Ovg",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0Ovg",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0Ovs",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0Ovs",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0OvM",
+                "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC8playModeAA04PlayH0OvM",
+                "moduleName": "InStreamSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zone:src:urlreferrer:gdprconsentstring:tagparam:playMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayMode",
+                "printedName": "InStreamSDK.PlayMode",
+                "usr": "s:11InStreamSDK8PlayModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK21DTKISMainPlayerConfigC4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S4SAA04PlayM0Otcfc",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S4SAA04PlayM0Otcfc",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig(im)init",
+            "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigCACycfc",
+            "moduleName": "InStreamSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig",
+        "mangledName": "$s11InStreamSDK21DTKISMainPlayerConfigC",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instreamSDK",
+            "printedName": "instreamSDK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC11InStreamSDKE08instreamD0ABvpZ",
+            "mangledName": "$sSo8NSBundleC11InStreamSDKE08instreamD0ABvpZ",
+            "moduleName": "InStreamSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC11InStreamSDKE08instreamD0ABvgZ",
+                "mangledName": "$sSo8NSBundleC11InStreamSDKE08instreamD0ABvgZ",
+                "moduleName": "InStreamSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSObject",
+        "printedName": "NSObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "className",
+            "printedName": "className",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSObjectC11InStreamSDKE9classNameSSvp",
+            "mangledName": "$sSo8NSObjectC11InStreamSDKE9classNameSSvp",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSObjectC11InStreamSDKE9classNameSSvg",
+                "mangledName": "$sSo8NSObjectC11InStreamSDKE9classNameSSvg",
+                "moduleName": "InStreamSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "className",
+            "printedName": "className",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSObjectC11InStreamSDKE9classNameSSvpZ",
+            "mangledName": "$sSo8NSObjectC11InStreamSDKE9classNameSSvpZ",
+            "moduleName": "InStreamSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSObjectC11InStreamSDKE9classNameSSvgZ",
+                "mangledName": "$sSo8NSObjectC11InStreamSDKE9classNameSSvgZ",
+                "moduleName": "InStreamSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSObject",
+        "moduleName": "ObjectiveC",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "NSObject",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 13,
+      "value": "\"InStreamSDK\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 8,
+      "value": "\"Logger\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 13,
+      "value": "\"InStreamSDK\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 8,
+      "value": "\"Logger\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/NetworkMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 714,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 758,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1511,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1580,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1644,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1697,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3827,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 4085,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4680,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4718,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5495,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6245,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6278,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 28,
+      "value": "\"_____String not found_____\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 39,
+      "value": "\"No localization found for key \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/Bundle+Module.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 26,
+      "value": "\"fr.beapp.dtk.InStreamSDK\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/Bundle+Module.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 59,
+      "value": "\"unable to find bundle with identifier \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/Bundle+Module.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 281,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 119,
+      "length": 11,
+      "value": "\"InStreamSDK.DTKISConfig\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 23,
+      "value": "\"<!doctype html><html>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 9,
+      "value": "\"<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 8,
+      "value": "\"<head>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 9,
+      "value": "\"<\/head>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 81,
+      "value": "\"<meta name='viewport' content='width=device-width, initial-scale=1' id='mvp' \/>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 45,
+      "value": "\"<link rel='canonical' href='[URL_REFERER]'>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 36,
+      "value": "\"<body style='margin:0;padding:0;'>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 9,
+      "value": "\"<\/body>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 198,
+      "value": "\"<iframe id='mediaVideo' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' scrolling='no' marginwidth='0' marginheight='0' hspace='0' vspace='0' allowfullscreen='false'\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1870,
+      "length": 50,
+      "value": "\"https:\/\/www.ultimedia.com\/deliver\/generic\/iframe\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1941,
+      "length": 8,
+      "value": "\"\/mdtk\/\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1976,
+      "length": 7,
+      "value": "\"\/src\/\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 8,
+      "value": "\"\/zone\/\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2059,
+      "length": 21,
+      "value": "\"\/gdprconsentstring\/\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2125,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2198,
+      "length": 15,
+      "value": "\"?autoplay=yes\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2255,
+      "length": 14,
+      "value": "\"?autoplay=no\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 12,
+      "value": "\"&tagparam=\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 7,
+      "value": "\"src='\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2446,
+      "length": 5,
+      "value": "\"'\/>\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 88,
+      "value": "\"javascript:document.getElementById('mediaVideo').contentWindow.postMessage('play','*')\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2790,
+      "length": 33,
+      "value": "\"Erreur loading video : \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1028,
+      "length": 14,
+      "value": "\"DTKIS_CONF_1\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 14,
+      "value": "\"Invalid MDTK\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 81,
+      "value": "\"apiKey (mdtk) must not be null, empty or blank. Please provide a valid Api Key.\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 14,
+      "value": "\"DTKIS_CONF_2\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 9,
+      "value": "\"No data\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1272,
+      "length": 140,
+      "value": "\"No data were provided for your Api key (mdtk), please check your Api Key is valid, and you do provide data for it in the digiteka console.\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1487,
+      "length": 14,
+      "value": "\"DTKIS_CONF_3\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 30,
+      "value": "\"InStream not yet initialized\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1557,
+      "length": 89,
+      "value": "\"InStream SDK has not yet been initialized. Please call InStream.shared.initialize first\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 13,
+      "value": "\"DTKIS_NET_1\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 25,
+      "value": "\"Network connection lost\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1785,
+      "length": 26,
+      "value": "\"Network connection lost.\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 13,
+      "value": "\"DTKIS_NET_2\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1917,
+      "length": 32,
+      "value": "\"Network connection unavailable\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 33,
+      "value": "\"Network connection unavailable.\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 2079,
+      "length": 13,
+      "value": "\"DTKIS_SDK_1\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 2103,
+      "length": 23,
+      "value": "\"URL conversion failed\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 2141,
+      "length": 38,
+      "value": "\"Can't convert URL from string \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "kind": "StringLiteral",
+      "offset": 2178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 13,
+      "value": "\"about:blank\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1545,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 14,
+      "value": "\"videoWebView\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
+      "length": 24,
+      "value": "\"close_player_to_resume\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2088,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2389,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2770,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3572,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISVisiblePlayerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 24,
+      "value": "\"InStreamSDK.DTKISVisiblePlayerConfig\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 10,
+      "value": "\"[⚠️]\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 8,
+      "value": "\"[🔥]\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 8,
+      "value": "\"[💣]\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 10,
+      "value": "\"[⚠️]\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 8,
+      "value": "\"[🔥]\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 8,
+      "value": "\"[💣]\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1217,
+      "length": 25,
+      "value": "\"yyyy-MM-dd hh:mm:ss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1647,
+      "length": 120,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1736,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 1,
+      "value": "\")] \""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 5,
+      "value": "\"NIL\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1766,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2061,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2149,
+      "length": 8,
+      "value": "\".swift\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2165,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISMainPlayerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 21,
+      "value": "\"InStreamSDK.DTKISMainPlayerConfig\""
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 437,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 800,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 976,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 1143,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 1314,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
