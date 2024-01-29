@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "InStreamSDK",
-            path: "build/InStreamSDK.xcframework"
+            path: "InStreamSDK.xcframework"
         )
     ]
 )
