@@ -1,0 +1,23 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "close_player_to_resume" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please close the floating video to resume playback here"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez fermer la vidéo flottante pour reprendre la lecture ici"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

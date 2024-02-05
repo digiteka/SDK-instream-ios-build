@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name InStreamSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -14,11 +14,21 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 import os
 public protocol DTKISLoggerDelegate : AnyObject {
+  func InStreamDebug(message: Swift.String)
+  func InStreamInfo(message: Swift.String)
   func InStreamWarn(message: Swift.String)
   func InStreamError(message: Swift.String, error: (any Swift.Error)?)
+}
+public struct InStreamScrollVStack<Content, Data> : SwiftUI.UIViewControllerRepresentable where Content : SwiftUI.View, Data : Swift.RandomAccessCollection {
+  public init(config: InStreamSDK.DTKISMainPlayerConfig, visiblePlayerConfig: InStreamSDK.DTKISVisiblePlayerConfig?, data: Data, playerInsertPosition: Swift.Int, content: @escaping (Data.Element) -> Content)
+  public init(config: InStreamSDK.DTKISMainPlayerConfig, data: Data, playerInsertPosition: Swift.Int, content: @escaping (Data.Element) -> Content)
+  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: InStreamSDK.InStreamScrollVStack<Content, Data>.Context) -> UIKit.UIViewController
+  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: UIKit.UIViewController, context: InStreamSDK.InStreamScrollVStack<Content, Data>.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewControllerType = UIKit.UIViewController
 }
 public enum VisiblePlayerPosition {
   case TOP_START
@@ -32,7 +42,7 @@ public enum VisiblePlayerPosition {
   }
 }
 public protocol VisiblePlayer {
-  func viewDidScroll(mainPlayerView: InStreamSDK.MainPlayerView)
+  func viewDidScroll(mainPlayerView: InStreamSDK.MainPlayerView, scrollView: UIKit.UIScrollView)
 }
 extension Foundation.Bundle {
   public static let instreamSDK: Foundation.Bundle
@@ -54,20 +64,12 @@ public enum PlayMode {
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MainPlayerView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public static func initMainPlayerView(mdtk: Swift.String, zone: Swift.String, src: Swift.String, urlreferrer: Swift.String, gdprconsentstring: Swift.String, tagparam: Swift.String, playMode: InStreamSDK.PlayMode) -> InStreamSDK.MainPlayerView
+  @_Concurrency.MainActor(unsafe) public static func initMainPlayerView(mdtk: Swift.String, config: InStreamSDK.DTKISMainPlayerConfig) -> InStreamSDK.MainPlayerView
   @_Concurrency.MainActor(unsafe) public func setIn(containerView: UIKit.UIView)
   @_Concurrency.MainActor(unsafe) public func viewDidScroll(scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
-}
-public struct MainPlayerViewRepresentable : SwiftUI.UIViewRepresentable {
-  public init(mdtk: Swift.String, zone: Swift.String, src: Swift.String, urlreferrer: Swift.String, gdprconsentstring: Swift.String, tagparam: Swift.String, playMode: InStreamSDK.PlayMode)
-  @_Concurrency.MainActor(unsafe) public func makeUIView(context: InStreamSDK.MainPlayerViewRepresentable.Context) -> InStreamSDK.MainPlayerView
-  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: InStreamSDK.MainPlayerView, context: InStreamSDK.MainPlayerViewRepresentable.Context)
-  public typealias Body = Swift.Never
-  public typealias Coordinator = Swift.Void
-  public typealias UIViewType = InStreamSDK.MainPlayerView
 }
 @objc public class DTKISVisiblePlayerConfig : ObjectiveC.NSObject {
   public var playerPosition: InStreamSDK.VisiblePlayerPosition
@@ -89,6 +91,14 @@ extension ObjectiveC.NSObject {
 @_hasMissingDesignatedInitializers public class InStream {
   @objc deinit
 }
+public struct MainPlayerViewRepresentable : SwiftUI.UIViewRepresentable {
+  public init(mdtk: Swift.String, config: InStreamSDK.DTKISMainPlayerConfig)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: InStreamSDK.MainPlayerViewRepresentable.Context) -> InStreamSDK.MainPlayerView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: InStreamSDK.MainPlayerView, context: InStreamSDK.MainPlayerViewRepresentable.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = InStreamSDK.MainPlayerView
+}
 @objc public class DTKISMainPlayerConfig : ObjectiveC.NSObject {
   public var zone: Swift.String
   public var src: Swift.String
@@ -104,7 +114,7 @@ extension InStreamSDK.InStream {
   public func initialize(config: InStreamSDK.DTKISConfig) throws
   public func setLoggerDelegate(_ delegate: (any InStreamSDK.DTKISLoggerDelegate)?)
   public func initMainPlayerWith(config: InStreamSDK.DTKISMainPlayerConfig) throws -> InStreamSDK.MainPlayerView
-  public func initVisiblePlayerWith(config: InStreamSDK.DTKISVisiblePlayerConfig, in parentView: UIKit.UIView, scrollView: UIKit.UIScrollView) -> any InStreamSDK.VisiblePlayer
+  public func initVisiblePlayerWith(config: InStreamSDK.DTKISVisiblePlayerConfig, in parentView: UIKit.UIView) -> any InStreamSDK.VisiblePlayer
   public func initMainPlayerRepresentable(config: InStreamSDK.DTKISMainPlayerConfig) throws -> InStreamSDK.MainPlayerViewRepresentable
 }
 extension InStreamSDK.VisiblePlayerPosition : Swift.Equatable {}
