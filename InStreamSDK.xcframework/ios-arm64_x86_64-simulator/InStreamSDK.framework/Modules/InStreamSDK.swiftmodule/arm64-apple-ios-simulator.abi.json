@@ -28,6 +28,66 @@
         "children": [
           {
             "kind": "Function",
+            "name": "InStreamDebug",
+            "printedName": "InStreamDebug(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK19DTKISLoggerDelegateP0aB5Debug7messageySS_tF",
+            "mangledName": "$s11InStreamSDK19DTKISLoggerDelegateP0aB5Debug7messageySS_tF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InStreamSDK.DTKISLoggerDelegate>",
+            "sugared_genericSig": "<Self where Self : InStreamSDK.DTKISLoggerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "InStreamInfo",
+            "printedName": "InStreamInfo(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK19DTKISLoggerDelegateP0aB4Info7messageySS_tF",
+            "mangledName": "$s11InStreamSDK19DTKISLoggerDelegateP0aB4Info7messageySS_tF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InStreamSDK.DTKISLoggerDelegate>",
+            "sugared_genericSig": "<Self where Self : InStreamSDK.DTKISLoggerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "InStreamWarn",
             "printedName": "InStreamWarn(message:)",
             "children": [
@@ -127,6 +187,354 @@
         "printedName": "Network",
         "declKind": "Import",
         "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InStreamScrollVStack",
+        "printedName": "InStreamScrollVStack",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:visiblePlayerConfig:data:playerInsertPosition:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InStreamScrollVStack",
+                "printedName": "InStreamSDK.InStreamScrollVStack<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:11InStreamSDK0aB12ScrollVStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InStreamSDK.DTKISVisiblePlayerConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTKISVisiblePlayerConfig",
+                    "printedName": "InStreamSDK.DTKISVisiblePlayerConfig",
+                    "usr": "c:@M@InStreamSDK@objc(cs)DTKISVisiblePlayerConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_1.Element) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_1.Element"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK0aB12ScrollVStackV6config19visiblePlayerConfig4data20playerInsertPosition7contentACyxq_GAA09DTKISMainhI0C_AA012DTKISVisiblehI0CSgq_Six7ElementQy_ctcfc",
+            "mangledName": "$s11InStreamSDK0aB12ScrollVStackV6config19visiblePlayerConfig4data20playerInsertPosition7contentACyxq_GAA09DTKISMainhI0C_AA012DTKISVisiblehI0CSgq_Six7ElementQy_ctcfc",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : Swift.RandomAccessCollection>",
+            "sugared_genericSig": "<Content, Data where Content : SwiftUI.View, Data : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:data:playerInsertPosition:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InStreamScrollVStack",
+                "printedName": "InStreamSDK.InStreamScrollVStack<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:11InStreamSDK0aB12ScrollVStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_1.Element) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_1.Element"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK0aB12ScrollVStackV6config4data20playerInsertPosition7contentACyxq_GAA21DTKISMainPlayerConfigC_q_Six7ElementQy_ctcfc",
+            "mangledName": "$s11InStreamSDK0aB12ScrollVStackV6config4data20playerInsertPosition7contentACyxq_GAA21DTKISMainPlayerConfigC_q_Six7ElementQy_ctcfc",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : Swift.RandomAccessCollection>",
+            "sugared_genericSig": "<Content, Data where Content : SwiftUI.View, Data : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<InStreamSDK.InStreamScrollVStack<τ_0_0, τ_0_1>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InStreamScrollVStack",
+                    "printedName": "InStreamSDK.InStreamScrollVStack<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:11InStreamSDK0aB12ScrollVStackV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB12ScrollVStackV20makeUIViewController7contextSo0gH0C7SwiftUI0gH20RepresentableContextVyACyxq_GG_tF",
+            "mangledName": "$s11InStreamSDK0aB12ScrollVStackV20makeUIViewController7contextSo0gH0C7SwiftUI0gH20RepresentableContextVyACyxq_GG_tF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : Swift.RandomAccessCollection>",
+            "sugared_genericSig": "<Content, Data where Content : SwiftUI.View, Data : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<InStreamSDK.InStreamScrollVStack<τ_0_0, τ_0_1>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InStreamScrollVStack",
+                    "printedName": "InStreamSDK.InStreamScrollVStack<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:11InStreamSDK0aB12ScrollVStackV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK0aB12ScrollVStackV22updateUIViewController_7contextySo0gH0C_7SwiftUI0gH20RepresentableContextVyACyxq_GGtF",
+            "mangledName": "$s11InStreamSDK0aB12ScrollVStackV22updateUIViewController_7contextySo0gH0C_7SwiftUI0gH20RepresentableContextVyACyxq_GGtF",
+            "moduleName": "InStreamSDK",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : Swift.RandomAccessCollection>",
+            "sugared_genericSig": "<Content, Data where Content : SwiftUI.View, Data : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11InStreamSDK0aB12ScrollVStackV",
+        "mangledName": "$s11InStreamSDK0aB12ScrollVStackV",
+        "moduleName": "InStreamSDK",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : Swift.RandomAccessCollection>",
+        "sugared_genericSig": "<Content, Data where Content : SwiftUI.View, Data : Swift.RandomAccessCollection>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -427,7 +835,7 @@
           {
             "kind": "Function",
             "name": "viewDidScroll",
-            "printedName": "viewDidScroll(mainPlayerView:)",
+            "printedName": "viewDidScroll(mainPlayerView:scrollView:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -439,11 +847,17 @@
                 "name": "MainPlayerView",
                 "printedName": "InStreamSDK.MainPlayerView",
                 "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11InStreamSDK13VisiblePlayerP13viewDidScroll04mainE4ViewyAA04MaineJ0C_tF",
-            "mangledName": "$s11InStreamSDK13VisiblePlayerP13viewDidScroll04mainE4ViewyAA04MaineJ0C_tF",
+            "usr": "s:11InStreamSDK13VisiblePlayerP13viewDidScroll04mainE4View06scrollJ0yAA04MaineJ0C_So08UIScrollJ0CtF",
+            "mangledName": "$s11InStreamSDK13VisiblePlayerP13viewDidScroll04mainE4View06scrollJ0yAA04MaineJ0C_So08UIScrollJ0CtF",
             "moduleName": "InStreamSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : InStreamSDK.VisiblePlayer>",
             "sugared_genericSig": "<Self where Self : InStreamSDK.VisiblePlayer>",
@@ -821,8 +1235,49 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "InStreamSDK"
       },
@@ -1098,7 +1553,7 @@
           {
             "kind": "Function",
             "name": "initMainPlayerView",
-            "printedName": "initMainPlayerView(mdtk:zone:src:urlreferrer:gdprconsentstring:tagparam:playMode:)",
+            "printedName": "initMainPlayerView(mdtk:config:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1114,44 +1569,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PlayMode",
-                "printedName": "InStreamSDK.PlayMode",
-                "usr": "s:11InStreamSDK8PlayModeO"
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11InStreamSDK14MainPlayerViewC04initdeF04mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0OtFZ",
-            "mangledName": "$s11InStreamSDK14MainPlayerViewC04initdeF04mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0OtFZ",
+            "usr": "s:11InStreamSDK14MainPlayerViewC04initdeF04mdtk6configACSS_AA09DTKISMainE6ConfigCtFZ",
+            "mangledName": "$s11InStreamSDK14MainPlayerViewC04initdeF04mdtk6configACSS_AA09DTKISMainE6ConfigCtFZ",
             "moduleName": "InStreamSDK",
             "static": true,
             "declAttributes": [
@@ -1359,13 +1784,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -1388,225 +1806,6 @@
         "moduleName": "InStreamSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "InStreamSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MainPlayerViewRepresentable",
-        "printedName": "MainPlayerViewRepresentable",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(mdtk:zone:src:urlreferrer:gdprconsentstring:tagparam:playMode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MainPlayerViewRepresentable",
-                "printedName": "InStreamSDK.MainPlayerViewRepresentable",
-                "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PlayMode",
-                "printedName": "InStreamSDK.PlayMode",
-                "usr": "s:11InStreamSDK8PlayModeO"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV4mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0Otcfc",
-            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV4mdtk4zone3src11urlreferrer17gdprconsentstring8tagparam8playModeACSS_S5SAA04PlayO0Otcfc",
-            "moduleName": "InStreamSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "makeUIView",
-            "printedName": "makeUIView(context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MainPlayerView",
-                "printedName": "InStreamSDK.MainPlayerView",
-                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewRepresentableContext",
-                "printedName": "SwiftUI.UIViewRepresentableContext<InStreamSDK.MainPlayerViewRepresentable>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MainPlayerViewRepresentable",
-                    "printedName": "InStreamSDK.MainPlayerViewRepresentable",
-                    "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
-                  }
-                ],
-                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV10makeUIView7contextAA0deF0C7SwiftUI0iG7ContextVyACG_tF",
-            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV10makeUIView7contextAA0deF0C7SwiftUI0iG7ContextVyACG_tF",
-            "moduleName": "InStreamSDK",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateUIView",
-            "printedName": "updateUIView(_:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MainPlayerView",
-                "printedName": "InStreamSDK.MainPlayerView",
-                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewRepresentableContext",
-                "printedName": "SwiftUI.UIViewRepresentableContext<InStreamSDK.MainPlayerViewRepresentable>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MainPlayerViewRepresentable",
-                    "printedName": "InStreamSDK.MainPlayerViewRepresentable",
-                    "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
-                  }
-                ],
-                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV12updateUIView_7contextyAA0deF0C_7SwiftUI0iG7ContextVyACGtF",
-            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV12updateUIView_7contextyAA0deF0C_7SwiftUI0iG7ContextVyACGtF",
-            "moduleName": "InStreamSDK",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV",
-        "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV",
-        "moduleName": "InStreamSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "UIViewRepresentable",
-            "printedName": "UIViewRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UIViewType",
-                "printedName": "UIViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MainPlayerView",
-                    "printedName": "InStreamSDK.MainPlayerView",
-                    "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Coordinator",
-                "printedName": "Coordinator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI19UIViewRepresentableP",
-            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
         ]
       },
       {
@@ -2370,7 +2569,7 @@
           {
             "kind": "Function",
             "name": "initVisiblePlayerWith",
-            "printedName": "initVisiblePlayerWith(config:in:scrollView:)",
+            "printedName": "initVisiblePlayerWith(config:in:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2389,17 +2588,11 @@
                 "name": "UIView",
                 "printedName": "UIKit.UIView",
                 "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIScrollView",
-                "printedName": "UIKit.UIScrollView",
-                "usr": "c:objc(cs)UIScrollView"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11InStreamSDK0aB0C21initVisiblePlayerWith6config2in10scrollViewAA0eF0_pAA012DTKISVisibleF6ConfigC_So6UIViewCSo08UIScrollK0CtF",
-            "mangledName": "$s11InStreamSDK0aB0C21initVisiblePlayerWith6config2in10scrollViewAA0eF0_pAA012DTKISVisibleF6ConfigC_So6UIViewCSo08UIScrollK0CtF",
+            "usr": "s:11InStreamSDK0aB0C21initVisiblePlayerWith6config2inAA0eF0_pAA012DTKISVisibleF6ConfigC_So6UIViewCtF",
+            "mangledName": "$s11InStreamSDK0aB0C21initVisiblePlayerWith6config2inAA0eF0_pAA012DTKISVisibleF6ConfigC_So6UIViewCtF",
             "moduleName": "InStreamSDK",
             "declAttributes": [
               "AccessControl",
@@ -2447,6 +2640,205 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InStreamSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MainPlayerViewRepresentable",
+        "printedName": "MainPlayerViewRepresentable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerViewRepresentable",
+                "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTKISMainPlayerConfig",
+                "printedName": "InStreamSDK.DTKISMainPlayerConfig",
+                "usr": "c:@M@InStreamSDK@objc(cs)DTKISMainPlayerConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV4mdtk6configACSS_AA09DTKISMainE6ConfigCtcfc",
+            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV4mdtk6configACSS_AA09DTKISMainE6ConfigCtcfc",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<InStreamSDK.MainPlayerViewRepresentable>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerViewRepresentable",
+                    "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                    "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV10makeUIView7contextAA0deF0C7SwiftUI0iG7ContextVyACG_tF",
+            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV10makeUIView7contextAA0deF0C7SwiftUI0iG7ContextVyACG_tF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainPlayerView",
+                "printedName": "InStreamSDK.MainPlayerView",
+                "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<InStreamSDK.MainPlayerViewRepresentable>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerViewRepresentable",
+                    "printedName": "InStreamSDK.MainPlayerViewRepresentable",
+                    "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV12updateUIView_7contextyAA0deF0C_7SwiftUI0iG7ContextVyACGtF",
+            "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV12updateUIView_7contextyAA0deF0C_7SwiftUI0iG7ContextVyACGtF",
+            "moduleName": "InStreamSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11InStreamSDK27MainPlayerViewRepresentableV",
+        "mangledName": "$s11InStreamSDK27MainPlayerViewRepresentableV",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainPlayerView",
+                    "printedName": "InStreamSDK.MainPlayerView",
+                    "usr": "c:@M@InStreamSDK@objc(cs)MainPlayerView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3226,9 +3618,7 @@
         "objc_name": "NSBundle",
         "declAttributes": [
           "ObjC",
-          "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -3238,13 +3628,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3461,819 +3844,1113 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 551,
+      "offset": 666,
       "length": 13,
       "value": "\"InStreamSDK\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 691,
       "length": 8,
       "value": "\"Logger\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 739,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 768,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 969,
       "length": 13,
       "value": "\"InStreamSDK\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 994,
       "length": 8,
       "value": "\"Logger\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1041,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1070,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/NetworkMonitor.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 13,
+      "value": "\"InStreamSDK\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 8,
+      "value": "\"Logger\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1373,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1590,
+      "length": 13,
+      "value": "\"InStreamSDK\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1615,
+      "length": 8,
+      "value": "\"Logger\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1663,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 511,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/NetworkMonitor.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/NetworkMonitor.swift",
       "kind": "StringLiteral",
       "offset": 1013,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 714,
+      "offset": 741,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 758,
+      "offset": 785,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1431,
+      "offset": 1368,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1498,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1566,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1580,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1644,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1697,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3827,
+      "offset": 1461,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 4013,
+      "offset": 3578,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 4085,
+      "offset": 3650,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 3805,
+      "length": 23,
+      "value": "\"[DTKIS] viewDidScroll\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4680,
+      "offset": 4281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4718,
+      "offset": 4315,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 5495,
+      "offset": 5082,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 5125,
+      "length": 50,
+      "value": "\"[DTKIS] startVisiblePlayer \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 5174,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 5809,
+      "length": 29,
+      "value": "\"[DTKIS] close visiblePlayer\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6245,
+      "offset": 5987,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6278,
+      "offset": 6011,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 28,
       "value": "\"_____String not found_____\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
       "kind": "StringLiteral",
       "offset": 407,
       "length": 39,
       "value": "\"No localization found for key \""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/String+Localize.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
       "kind": "StringLiteral",
       "offset": 445,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/Bundle+Module.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 26,
       "value": "\"fr.beapp.dtk.InStreamSDK\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/Bundle+Module.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 59,
       "value": "\"unable to find bundle with identifier \""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/Bundle+Module.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 511,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 11,
       "value": "\"InStreamSDK.DTKISConfig\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2003,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2084,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2252,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2336,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2461,
+      "length": 28,
+      "value": "\"InStreamVideoTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2538,
+      "length": 28,
+      "value": "\"InStreamVideoTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2641,
+      "length": 19,
+      "value": "\"CustomSwiftuiCell\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2915,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3039,
+      "length": 32,
+      "value": "\"indexPath.row \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3070,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3198,
+      "length": 28,
+      "value": "\"InStreamVideoTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3442,
+      "length": 19,
+      "value": "\"CustomSwiftuiCell\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3564,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4002,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 23,
       "value": "\"<!doctype html><html>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 9,
       "value": "\"<\/html>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 8,
       "value": "\"<head>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 9,
       "value": "\"<\/head>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 81,
       "value": "\"<meta name='viewport' content='width=device-width, initial-scale=1' id='mvp' \/>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 45,
       "value": "\"<link rel='canonical' href='[URL_REFERER]'>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 519,
       "length": 36,
       "value": "\"<body style='margin:0;padding:0;'>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
       "offset": 584,
       "length": 9,
       "value": "\"<\/body>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 1649,
+      "offset": 1665,
       "length": 198,
       "value": "\"<iframe id='mediaVideo' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' scrolling='no' marginwidth='0' marginheight='0' hspace='0' vspace='0' allowfullscreen='false'\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 1870,
+      "offset": 1886,
       "length": 50,
       "value": "\"https:\/\/www.ultimedia.com\/deliver\/generic\/iframe\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 1957,
       "length": 8,
       "value": "\"\/mdtk\/\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 1976,
+      "offset": 1992,
       "length": 7,
       "value": "\"\/src\/\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2026,
       "length": 8,
       "value": "\"\/zone\/\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2059,
+      "offset": 2075,
       "length": 21,
       "value": "\"\/gdprconsentstring\/\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2125,
+      "offset": 2141,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2198,
+      "offset": 2214,
       "length": 15,
       "value": "\"?autoplay=yes\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2255,
+      "offset": 2271,
       "length": 14,
       "value": "\"?autoplay=no\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2304,
+      "offset": 2320,
       "length": 12,
       "value": "\"&tagparam=\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2358,
+      "offset": 2374,
       "length": 7,
       "value": "\"src='\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2462,
       "length": 5,
       "value": "\"'\/>\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2565,
+      "offset": 2581,
       "length": 88,
       "value": "\"javascript:document.getElementById('mediaVideo').contentWindow.postMessage('play','*')\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2790,
+      "offset": 2806,
       "length": 33,
       "value": "\"Erreur loading video : \""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Utils\/HTMLManager.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 2822,
+      "offset": 2838,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InStreamVideoTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InStreamVideoTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1052,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1028,
+      "offset": 922,
       "length": 14,
       "value": "\"DTKIS_CONF_1\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 947,
       "length": 14,
       "value": "\"Invalid MDTK\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 976,
       "length": 81,
       "value": "\"apiKey (mdtk) must not be null, empty or blank. Please provide a valid Api Key.\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1223,
+      "offset": 1117,
       "length": 14,
       "value": "\"DTKIS_CONF_2\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1248,
+      "offset": 1142,
       "length": 9,
       "value": "\"No data\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1166,
       "length": 140,
       "value": "\"No data were provided for your Api key (mdtk), please check your Api Key is valid, and you do provide data for it in the digiteka console.\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
+      "offset": 1381,
       "length": 14,
       "value": "\"DTKIS_CONF_3\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
+      "offset": 1406,
       "length": 30,
       "value": "\"InStream not yet initialized\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1557,
+      "offset": 1451,
       "length": 89,
       "value": "\"InStream SDK has not yet been initialized. Please call InStream.shared.initialize first\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1615,
       "length": 13,
       "value": "\"DTKIS_NET_1\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1639,
       "length": 25,
       "value": "\"Network connection lost\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1785,
+      "offset": 1679,
       "length": 26,
       "value": "\"Network connection lost.\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1787,
       "length": 13,
       "value": "\"DTKIS_NET_2\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1811,
       "length": 32,
       "value": "\"Network connection unavailable\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
+      "offset": 1858,
       "length": 33,
       "value": "\"Network connection unavailable.\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 2079,
-      "length": 13,
-      "value": "\"DTKIS_SDK_1\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 2103,
-      "length": 23,
-      "value": "\"URL conversion failed\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 2141,
-      "length": 38,
-      "value": "\"Can't convert URL from string \""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 2178,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 465,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1350,
+      "offset": 1318,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1545,
+      "offset": 1513,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 1598,
+      "offset": 1566,
       "length": 14,
       "value": "\"videoWebView\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1892,
       "length": 24,
       "value": "\"close_player_to_resume\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 28,
+      "value": "\"[DTKIS] Videoiframe is nil\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2088,
+      "offset": 2135,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 55,
+      "value": "\"[DTKIS] move player in visiblePlayer \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2389,
+      "offset": 2521,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2541,
+      "offset": 2673,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 32,
+      "value": "\"[DTKIS] visiblePlayer.subviews\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2933,
+      "length": 20,
+      "value": "\"[DTKIS] \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2952,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2770,
+      "offset": 3047,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 3082,
+      "length": 52,
+      "value": "\"[DTKIS] wkWebView \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 3133,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 3412,
+      "length": 36,
+      "value": "\"[DTKIS] viewDidScroll \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 3446,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3572,
+      "offset": 4131,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISVisiblePlayerConfig.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 4180,
+      "length": 33,
+      "value": "\"[DTKIS] viewDidScroll playVideo\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 638,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 687,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISVisiblePlayerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
       "length": 24,
       "value": "\"InStreamSDK.DTKISVisiblePlayerConfig\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 177,
+      "offset": 178,
+      "length": 8,
+      "value": "\"[🐜]\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 10,
+      "value": "\"[ℹ️]\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
       "length": 10,
       "value": "\"[⚠️]\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 298,
       "length": 8,
       "value": "\"[🔥]\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 262,
+      "offset": 340,
       "length": 8,
       "value": "\"[💣]\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 177,
+      "offset": 178,
+      "length": 8,
+      "value": "\"[🐜]\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 10,
+      "value": "\"[ℹ️]\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
       "length": 10,
       "value": "\"[⚠️]\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 298,
       "length": 8,
       "value": "\"[🔥]\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 262,
+      "offset": 340,
       "length": 8,
       "value": "\"[💣]\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 542,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1217,
+      "offset": 1903,
       "length": 25,
       "value": "\"yyyy-MM-dd hh:mm:ss.SSS\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 2333,
       "length": 120,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 2354,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1689,
+      "offset": 2375,
       "length": 1,
       "value": "\"[\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1723,
+      "offset": 2409,
       "length": 1,
       "value": "\": \""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1736,
+      "offset": 2422,
       "length": 1,
       "value": "\" (\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 2431,
       "length": 1,
       "value": "\")] \""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1760,
+      "offset": 2446,
       "length": 5,
       "value": "\"NIL\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 2452,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2061,
+      "offset": 2747,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2788,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2149,
+      "offset": 2835,
       "length": 8,
       "value": "\".swift\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2165,
+      "offset": 2851,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Logger\/Logger.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 2858,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Core\/Config\/DTKISMainPlayerConfig.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISMainPlayerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 581,
       "length": 21,
       "value": "\"InStreamSDK.DTKISMainPlayerConfig\""
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 437,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 610,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 800,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 976,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1143,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/aroussel\/Workspace\/beapp\/digiteka.instream.ios\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1314,
       "length": 3,
