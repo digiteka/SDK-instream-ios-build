@@ -707,52 +707,53 @@
             "moduleName": "InStreamSDK"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "InStreamSDK.VisiblePlayerPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "VisiblePlayerPosition",
-                "printedName": "InStreamSDK.VisiblePlayerPosition",
-                "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VisiblePlayerPosition",
-                "printedName": "InStreamSDK.VisiblePlayerPosition",
-                "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO2eeoiySbAC_ACtFZ",
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO8rawValueACSgSS_tcfc",
             "moduleName": "InStreamSDK",
-            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO9hashValueSivp",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9hashValueSivp",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO8rawValueSSvp",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO8rawValueSSvp",
             "moduleName": "InStreamSDK",
             "implicit": true,
             "accessors": [
@@ -763,14 +764,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK21VisiblePlayerPositionO9hashValueSivg",
-                "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9hashValueSivg",
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO8rawValueSSvg",
+                "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO8rawValueSSvg",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -778,29 +779,61 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                "name": "Array",
+                "printedName": "[InStreamSDK.VisiblePlayerPosition]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisiblePlayerPosition",
+                    "printedName": "InStreamSDK.VisiblePlayerPosition",
+                    "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO4hash4intoys6HasherVz_tF",
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO8allCasesSayACGvpZ",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO8allCasesSayACGvpZ",
             "moduleName": "InStreamSDK",
+            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InStreamSDK.VisiblePlayerPosition]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisiblePlayerPosition",
+                        "printedName": "InStreamSDK.VisiblePlayerPosition",
+                        "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK21VisiblePlayerPositionO8allCasesSayACGvgZ",
+                "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO8allCasesSayACGvgZ",
+                "moduleName": "InStreamSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -810,6 +843,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "String",
         "conformances": [
           {
             "kind": "Conformance",
@@ -824,6 +858,58 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InStreamSDK.VisiblePlayerPosition]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisiblePlayerPosition",
+                        "printedName": "InStreamSDK.VisiblePlayerPosition",
+                        "usr": "s:11InStreamSDK21VisiblePlayerPositionO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -1809,6 +1895,396 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Ratio",
+        "printedName": "Ratio",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wh_1_1",
+            "printedName": "wh_1_1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.Ratio.Type) -> InStreamSDK.Ratio",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ratio",
+                    "printedName": "InStreamSDK.Ratio",
+                    "usr": "s:11InStreamSDK5RatioO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.Ratio.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK5RatioO6wh_1_1yA2CmF",
+            "mangledName": "$s11InStreamSDK5RatioO6wh_1_1yA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "wh_16_9",
+            "printedName": "wh_16_9",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.Ratio.Type) -> InStreamSDK.Ratio",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ratio",
+                    "printedName": "InStreamSDK.Ratio",
+                    "usr": "s:11InStreamSDK5RatioO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.Ratio.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK5RatioO7wh_16_9yA2CmF",
+            "mangledName": "$s11InStreamSDK5RatioO7wh_16_9yA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "wh_4_3",
+            "printedName": "wh_4_3",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.Ratio.Type) -> InStreamSDK.Ratio",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ratio",
+                    "printedName": "InStreamSDK.Ratio",
+                    "usr": "s:11InStreamSDK5RatioO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.Ratio.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK5RatioO6wh_4_3yA2CmF",
+            "mangledName": "$s11InStreamSDK5RatioO6wh_4_3yA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "customWH",
+            "printedName": "customWH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.Ratio.Type) -> (Swift.Int, Swift.Int) -> InStreamSDK.Ratio",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> InStreamSDK.Ratio",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(width: Swift.Int, height: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.Ratio.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK5RatioO8customWHyACSi_SitcACmF",
+            "mangledName": "$s11InStreamSDK5RatioO8customWHyACSi_SitcACmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.Ratio.Type) -> (Swift.Float) -> InStreamSDK.Ratio",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Float) -> InStreamSDK.Ratio",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ratioW_H: Swift.Float)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.Ratio.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ratio",
+                        "printedName": "InStreamSDK.Ratio",
+                        "usr": "s:11InStreamSDK5RatioO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK5RatioO6customyACSf_tcACmF",
+            "mangledName": "$s11InStreamSDK5RatioO6customyACSf_tcACmF",
+            "moduleName": "InStreamSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11InStreamSDK5RatioO",
+        "mangledName": "$s11InStreamSDK5RatioO",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WidthProportion",
+        "printedName": "WidthProportion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "w_05",
+            "printedName": "w_05",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.WidthProportion.Type) -> InStreamSDK.WidthProportion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WidthProportion",
+                    "printedName": "InStreamSDK.WidthProportion",
+                    "usr": "s:11InStreamSDK15WidthProportionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.WidthProportion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidthProportion",
+                        "printedName": "InStreamSDK.WidthProportion",
+                        "usr": "s:11InStreamSDK15WidthProportionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK15WidthProportionO4w_05yA2CmF",
+            "mangledName": "$s11InStreamSDK15WidthProportionO4w_05yA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "w_033",
+            "printedName": "w_033",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.WidthProportion.Type) -> InStreamSDK.WidthProportion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WidthProportion",
+                    "printedName": "InStreamSDK.WidthProportion",
+                    "usr": "s:11InStreamSDK15WidthProportionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.WidthProportion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidthProportion",
+                        "printedName": "InStreamSDK.WidthProportion",
+                        "usr": "s:11InStreamSDK15WidthProportionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK15WidthProportionO5w_033yA2CmF",
+            "mangledName": "$s11InStreamSDK15WidthProportionO5w_033yA2CmF",
+            "moduleName": "InStreamSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InStreamSDK.WidthProportion.Type) -> (CoreGraphics.CGFloat) -> InStreamSDK.WidthProportion",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat) -> InStreamSDK.WidthProportion",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidthProportion",
+                        "printedName": "InStreamSDK.WidthProportion",
+                        "usr": "s:11InStreamSDK15WidthProportionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(width: CoreGraphics.CGFloat)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InStreamSDK.WidthProportion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidthProportion",
+                        "printedName": "InStreamSDK.WidthProportion",
+                        "usr": "s:11InStreamSDK15WidthProportionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11InStreamSDK15WidthProportionO6customyAC14CoreFoundation7CGFloatV_tcACmF",
+            "mangledName": "$s11InStreamSDK15WidthProportionO6customyAC12CoreGraphics7CGFloatV_tcACmF",
+            "moduleName": "InStreamSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11InStreamSDK15WidthProportionO",
+        "mangledName": "$s11InStreamSDK15WidthProportionO",
+        "moduleName": "InStreamSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1915,14 +2391,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "name": "WidthProportion",
+                "printedName": "InStreamSDK.WidthProportion",
+                "usr": "s:11InStreamSDK15WidthProportionO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvp",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvp",
             "moduleName": "InStreamSDK",
             "declAttributes": [
               "HasStorage",
@@ -1937,14 +2413,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
+                    "name": "WidthProportion",
+                    "printedName": "InStreamSDK.WidthProportion",
+                    "usr": "s:11InStreamSDK15WidthProportionO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvg",
-                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvg",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvg",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1961,14 +2437,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
+                    "name": "WidthProportion",
+                    "printedName": "InStreamSDK.WidthProportion",
+                    "usr": "s:11InStreamSDK15WidthProportionO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvs",
-                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvs",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvs",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1985,8 +2461,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent14CoreFoundation7CGFloatVvM",
-                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercent12CoreGraphics7CGFloatVvM",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC12widthPercentAA15WidthProportionOvM",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2000,14 +2476,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Ratio",
+                "printedName": "InStreamSDK.Ratio",
+                "usr": "s:11InStreamSDK5RatioO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvp",
-            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvp",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvp",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvp",
             "moduleName": "InStreamSDK",
             "declAttributes": [
               "HasStorage",
@@ -2022,14 +2498,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Ratio",
+                    "printedName": "InStreamSDK.Ratio",
+                    "usr": "s:11InStreamSDK5RatioO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvg",
-                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvg",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvg",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvg",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2046,14 +2522,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Ratio",
+                    "printedName": "InStreamSDK.Ratio",
+                    "usr": "s:11InStreamSDK5RatioO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvs",
-                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvs",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvs",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvs",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2070,8 +2546,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvM",
-                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioSSvM",
+                "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvM",
+                "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC5ratioAA5RatioOvM",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2268,15 +2744,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "name": "WidthProportion",
+                "printedName": "InStreamSDK.WidthProportion",
+                "usr": "s:11InStreamSDK15WidthProportionO"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Ratio",
+                "printedName": "InStreamSDK.Ratio",
+                "usr": "s:11InStreamSDK5RatioO"
               },
               {
                 "kind": "TypeNominal",
@@ -2292,8 +2768,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPosition12widthPercent5ratio16horizontalMargin08verticalM0AcA07VisibleeH0O_14CoreFoundation7CGFloatVSSA2Mtcfc",
-            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPosition12widthPercent5ratio16horizontalMargin08verticalM0AcA07VisibleeH0O_12CoreGraphics7CGFloatVSSA2Mtcfc",
+            "usr": "s:11InStreamSDK24DTKISVisiblePlayerConfigC14playerPosition12widthPercent5ratio16horizontalMargin08verticalM0AcA07VisibleeH0O_AA15WidthProportionOAA5RatioO14CoreFoundation7CGFloatVAQtcfc",
+            "mangledName": "$s11InStreamSDK24DTKISVisiblePlayerConfigC14playerPosition12widthPercent5ratio16horizontalMargin08verticalM0AcA07VisibleeH0O_AA15WidthProportionOAA5RatioO12CoreGraphics7CGFloatVAQtcfc",
             "moduleName": "InStreamSDK",
             "declAttributes": [
               "AccessControl"
@@ -3971,106 +4447,169 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 11,
+      "value": "\"TOP_START\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 9,
+      "value": "\"TOP_END\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 14,
+      "value": "\"BOTTOM_START\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 12,
+      "value": "\"BOTTOM_END\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 11,
+      "value": "\"TOP_START\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 9,
+      "value": "\"TOP_END\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 14,
+      "value": "\"BOTTOM_START\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 12,
+      "value": "\"BOTTOM_END\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 741,
+      "offset": 821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 785,
+      "offset": 865,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1368,
+      "offset": 1448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1461,
+      "offset": 1491,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3578,
+      "offset": 3608,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3650,
+      "offset": 3680,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3805,
+      "offset": 3836,
       "length": 23,
       "value": "\"[DTKIS] viewDidScroll\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 4268,
+      "length": 52,
+      "value": "\"[DTKIS] send mainPlayer in visiblePlayer if needed\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4281,
+      "offset": 4355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4315,
+      "offset": 4389,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 5082,
+      "offset": 5156,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 5125,
-      "length": 50,
-      "value": "\"[DTKIS] startVisiblePlayer \""
+      "offset": 5200,
+      "length": 57,
+      "value": "\"[DTKIS] can start visiblePlayer : \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 5174,
+      "offset": 5256,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 5809,
+      "offset": 5891,
       "length": 29,
       "value": "\"[DTKIS] close visiblePlayer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5987,
+      "offset": 6069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6011,
+      "offset": 6093,
       "length": 4,
       "value": "true"
     },
@@ -4427,105 +4966,105 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 922,
+      "offset": 897,
       "length": 14,
       "value": "\"DTKIS_CONF_1\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 947,
+      "offset": 922,
       "length": 14,
       "value": "\"Invalid MDTK\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 951,
       "length": 81,
       "value": "\"apiKey (mdtk) must not be null, empty or blank. Please provide a valid Api Key.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1092,
       "length": 14,
       "value": "\"DTKIS_CONF_2\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
+      "offset": 1117,
       "length": 9,
       "value": "\"No data\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1166,
+      "offset": 1141,
       "length": 140,
       "value": "\"No data were provided for your Api key (mdtk), please check your Api Key is valid, and you do provide data for it in the digiteka console.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1381,
+      "offset": 1356,
       "length": 14,
       "value": "\"DTKIS_CONF_3\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1406,
+      "offset": 1381,
       "length": 30,
       "value": "\"InStream not yet initialized\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1451,
+      "offset": 1426,
       "length": 89,
       "value": "\"InStream SDK has not yet been initialized. Please call InStream.shared.initialize first\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1615,
+      "offset": 1590,
       "length": 13,
       "value": "\"DTKIS_NET_1\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1614,
       "length": 25,
       "value": "\"Network connection lost\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1654,
       "length": 26,
       "value": "\"Network connection lost.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1787,
+      "offset": 1762,
       "length": 13,
       "value": "\"DTKIS_NET_2\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1786,
       "length": 32,
       "value": "\"Network connection unavailable\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
       "kind": "StringLiteral",
-      "offset": 1858,
+      "offset": 1833,
       "length": 33,
       "value": "\"Network connection unavailable.\""
     },
@@ -4630,105 +5169,140 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3047,
+      "offset": 3003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3082,
+      "offset": 3038,
       "length": 52,
       "value": "\"[DTKIS] wkWebView \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3089,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3253,
+      "offset": 3209,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3412,
+      "offset": 3368,
       "length": 36,
       "value": "\"[DTKIS] viewDidScroll \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 3446,
+      "offset": 3402,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 4131,
+      "offset": 4087,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 4180,
+      "offset": 4136,
       "length": 33,
       "value": "\"[DTKIS] viewDidScroll playVideo\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 517,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 568,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 638,
+      "offset": 741,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 687,
+      "offset": 775,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 843,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 868,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 913,
+      "length": 3,
+      "value": "9.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 938,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 983,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1008,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1183,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1333,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1379,
+      "length": 4,
+      "value": "0.33"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISVisiblePlayerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 486,
       "length": 24,
       "value": "\"InStreamSDK.DTKISVisiblePlayerConfig\""
     },
@@ -4812,105 +5386,105 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1904,
       "length": 25,
       "value": "\"yyyy-MM-dd hh:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2333,
+      "offset": 2334,
       "length": 120,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2355,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2375,
+      "offset": 2376,
       "length": 1,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2409,
+      "offset": 2410,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2422,
+      "offset": 2423,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2431,
+      "offset": 2432,
       "length": 1,
       "value": "\")] \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2447,
       "length": 5,
       "value": "\"NIL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2453,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2747,
+      "offset": 2748,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 2789,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2836,
       "length": 8,
       "value": "\".swift\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2852,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2858,
+      "offset": 2859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISMainPlayerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 533,
       "length": 21,
       "value": "\"InStreamSDK.DTKISMainPlayerConfig\""
     },

@@ -315,7 +315,7 @@ SWIFT_CLASS("_TtC11InStreamSDK21DTKISMainPlayerConfig")
 ///
 /// \param widthPercent width of the player in percentage of the parentView
 ///
-/// \param ratio (String) ratio of the video player for instance “16:9”
+/// \param ratio ratio of the video player
 ///
 /// \param horizontalMargin margin of the visible player
 ///
