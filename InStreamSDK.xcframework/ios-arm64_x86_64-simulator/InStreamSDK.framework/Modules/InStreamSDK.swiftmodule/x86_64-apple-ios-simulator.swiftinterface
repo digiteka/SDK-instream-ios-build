@@ -30,14 +30,18 @@ public struct InStreamScrollVStack<Content, Data> : SwiftUI.UIViewControllerRepr
   public typealias Coordinator = Swift.Void
   public typealias UIViewControllerType = UIKit.UIViewController
 }
-public enum VisiblePlayerPosition {
+public enum VisiblePlayerPosition : Swift.String, Swift.CaseIterable {
   case TOP_START
   case TOP_END
   case BOTTOM_START
   case BOTTOM_END
-  public static func == (a: InStreamSDK.VisiblePlayerPosition, b: InStreamSDK.VisiblePlayerPosition) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [InStreamSDK.VisiblePlayerPosition]
+  public typealias RawValue = Swift.String
+  public static var allCases: [InStreamSDK.VisiblePlayerPosition] {
+    get
+  }
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -71,13 +75,25 @@ public enum PlayMode {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public enum Ratio {
+  case wh_1_1
+  case wh_16_9
+  case wh_4_3
+  case customWH(width: Swift.Int, height: Swift.Int)
+  case custom(ratioW_H: Swift.Float)
+}
+public enum WidthProportion {
+  case w_05
+  case w_033
+  case custom(width: CoreFoundation.CGFloat)
+}
 @objc public class DTKISVisiblePlayerConfig : ObjectiveC.NSObject {
   public var playerPosition: InStreamSDK.VisiblePlayerPosition
-  public var widthPercent: CoreFoundation.CGFloat
-  public var ratio: Swift.String
+  public var widthPercent: InStreamSDK.WidthProportion
+  public var ratio: InStreamSDK.Ratio
   public var horizontalMargin: CoreFoundation.CGFloat
   public var verticalMargin: CoreFoundation.CGFloat
-  public init(playerPosition: InStreamSDK.VisiblePlayerPosition = .BOTTOM_END, widthPercent: CoreFoundation.CGFloat, ratio: Swift.String, horizontalMargin: CoreFoundation.CGFloat, verticalMargin: CoreFoundation.CGFloat)
+  public init(playerPosition: InStreamSDK.VisiblePlayerPosition = .BOTTOM_END, widthPercent: InStreamSDK.WidthProportion, ratio: InStreamSDK.Ratio, horizontalMargin: CoreFoundation.CGFloat, verticalMargin: CoreFoundation.CGFloat)
   @objc deinit
 }
 extension ObjectiveC.NSObject {
@@ -119,5 +135,6 @@ extension InStreamSDK.InStream {
 }
 extension InStreamSDK.VisiblePlayerPosition : Swift.Equatable {}
 extension InStreamSDK.VisiblePlayerPosition : Swift.Hashable {}
+extension InStreamSDK.VisiblePlayerPosition : Swift.RawRepresentable {}
 extension InStreamSDK.PlayMode : Swift.Equatable {}
 extension InStreamSDK.PlayMode : Swift.Hashable {}

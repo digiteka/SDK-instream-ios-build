@@ -63,8 +63,8 @@ Then pass the logger:
 
 ### DTKISVisiblePlayerConfig
 - playerPosition (VisiblePlayerPosition) : position of the visible player (TOP_START, TOP_END, BOTTOM_START, BOTTOM_END)
-- widthPercent (CGFloat) : width of the player in percentage of the parentView
-- ratio (String) : ratio of the video player, for instance `"16:9"`
+- widthPercent (WidthProportion) : width of the player in percentage of the parentView
+- ratio (Ratio) : ratio of the video player width / height
 - horizontalMargin (CGFloat) : margin of the visible player
 - verticalMargin (CGFloat) : margin of the visible player
 
