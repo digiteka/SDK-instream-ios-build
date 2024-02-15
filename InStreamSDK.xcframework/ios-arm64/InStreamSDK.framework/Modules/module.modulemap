@@ -1,7 +1,7 @@
 framework module InStreamSDK {
   umbrella header "InStreamSDK.h"
-
   export *
+
   module * { export * }
 }
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/InStreamSDK-Swift.h</key>
 		<data>
-		Cl5tgoy4asvYKXoTbzGfySvkjAI=
+		JlwfdUvQMeCVFgw/L0GP0XSv+qk=
 		</data>
 		<key>Headers/InStreamSDK.h</key>
 		<data>
@@ -14,72 +14,86 @@
 		</data>
 		<key>InStreamVideoTableViewCell.nib</key>
 		<data>
-		w3r0CHDlI4jNJBq/pdHVBdh3FAY=
+		OIxVbNYs4JIHnNBZx+J2hEV7cxY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wwOxWeXww7kgsVh9RGgpFPO5Fcg=
-		</data>
-		<key>Localizable.xcstrings</key>
-		<data>
-		SUykN/W8AJJy/6rgri+ff98byOM=
+		gP2nxgaIxJAo2WG1GgY5+Q6rfM8=
 		</data>
 		<key>MainPlayerView.nib</key>
 		<data>
-		Zk7NdnvSQ0tsJLk9iA92EkQZwP0=
+		w5MSAZRZHFLT0EZg/xgHZCNs0e4=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Va7r/QSaUoWKFkB5/XEw8QGNghU=
+		UcNPi2lF5cZOo7iZjYmUxQb9Sc4=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0nt0wxawT2bQE6A2DWcF5C47AXI=
+		6o3WPAOzYDdVFPFjipTd25Gjsbg=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		25mr04aPAQkRtGvjz97QLeCn4U8=
+		q9/QYQspuurIxs4+ZfQ37VXBiWI=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0nt0wxawT2bQE6A2DWcF5C47AXI=
+		6o3WPAOzYDdVFPFjipTd25Gjsbg=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7vDbogDzwvl6RFTsQ87bGLIrnJU=
+		ZZiV2UTzcY6GhYfYdZu1UN1isrU=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Va7r/QSaUoWKFkB5/XEw8QGNghU=
+		UcNPi2lF5cZOo7iZjYmUxQb9Sc4=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		I+2N1KnzRkyUYeKLTi0YbRpg/4U=
+		wz8JfWDT8rO3g/NIeu5/BGUEQ7s=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7gh3WYRvkJbOI6PKLAjXSNloJ2k=
+		AwacgCOH6ThZzzHRcgEDTpufkFE=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		I+2N1KnzRkyUYeKLTi0YbRpg/4U=
+		wz8JfWDT8rO3g/NIeu5/BGUEQ7s=
 		</data>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WXU/1he6ZfRAronkcpknqRQDKQY=
+		+V6Km7CxHlOpjf9DEC1lWdTbq4g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		iRzj6YeY9RsvkxzibHZYtWGkg8g=
+		yrDPxmbkFu5vSmT/WoRrmVloMno=
 		</data>
 		<key>VisiblePlayerView.nib/objects-14.0+.nib</key>
 		<data>
-		UEMW6HA9ldcpj+XCM+ntPgFAKVA=
+		Ysf4qir8A6XQJN4eaWdGF3iJZAE=
 		</data>
 		<key>VisiblePlayerView.nib/runtime.nib</key>
 		<data>
-		o8mRx+5Jl/xg6FaMlAw7YyzLqHM=
+		d8XS7hf26oUyjgkzlj/CYbjysu8=
 		</data>
+		<key>en.lproj/InStreamSDK.Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sxWnLZDhHIwyj+Ud9+m9yWIl3vs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/InStreamSDK.Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+9pK6YofSyUiaQBZfArOJYjHZaU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -87,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0LAuxpyPBhwROOBYLAk+vEKq+6ZWh2RbkYCqUG5PVa8=
+			lPN1Y6VsFZgOYIfOLOfW04v4cy+/uSQylW+ELHcGBmo=
 			</data>
 		</dict>
 		<key>Headers/InStreamSDK.h</key>
@@ -101,113 +115,124 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1zKLd6ecFQEBvbTAE7YS/MBevlJ+pKoyLnwwxQg+V6o=
-			</data>
-		</dict>
-		<key>Localizable.xcstrings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bgRontVrQ7NGK2IxwKrGbREEDhRuW2MmrkeR4aq+zv8=
+			DM+f0vPB3/QQAjjMMdXV9Njy/yhtzL3BETZE3jyn6Jk=
 			</data>
 		</dict>
 		<key>MainPlayerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eGxaz/cudWS05+EuaCyYtTCnmRZWMQKFgrMOW5QWVxA=
+			3paAsKnrwCDt1WH1LmLgwVNLZnOJ1vWav3RjC83Xh3g=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lTstXwwk8rXrbZv1bQtnSEEDPMS3iFRo5u24+ngSB1I=
+			KVseKTc/OyGho0u7QWwfuquP9E02Q0BuHQ/atQjB3u8=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d1vqPJrANxmgsWakl14zCcNrIHbcH7ufXoMbLqiOzBg=
+			9AXy7B+oDg8PIw0J++qMLtyyPuFjfM2H3T4XlrqZHVE=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XttQfnBF9ax8adG25F68EE4RqtCgogC/JALShkvMeU4=
+			NoFDjRze7BFR1t4qhSVrcsHjLLegIe+zuVUfThYyyXs=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d1vqPJrANxmgsWakl14zCcNrIHbcH7ufXoMbLqiOzBg=
+			9AXy7B+oDg8PIw0J++qMLtyyPuFjfM2H3T4XlrqZHVE=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HBiC2s4s8147l36UyEaL3q3Lba9d+yQv7KlFFE/Lz0=
+			MykiWsDfAFNtMCHnIAG3BhrD+kTdbte6vxZZlonoIE4=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lTstXwwk8rXrbZv1bQtnSEEDPMS3iFRo5u24+ngSB1I=
+			KVseKTc/OyGho0u7QWwfuquP9E02Q0BuHQ/atQjB3u8=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qIHeac8YRP/ibG3nRyB0LlB2/zooBIR+hBUR14Rjw+k=
+			a0Q/9lT/hrZcEX4SmbcP70x/nNF0AG3VRnkgagMVwgk=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hbMY38jEM+PWnRYYOxtkiAU3SNfNp8nquMe6F2fecLo=
+			B3AlLvJztcJGwj08fGFkJRZdvZziMbrp9JXc0c0cv7k=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qIHeac8YRP/ibG3nRyB0LlB2/zooBIR+hBUR14Rjw+k=
+			a0Q/9lT/hrZcEX4SmbcP70x/nNF0AG3VRnkgagMVwgk=
 			</data>
 		</dict>
 		<key>Modules/InStreamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2eoAWBBNiIX7pgnW8fczQZ6A0+skeu4JEqJ4t4E9pDQ=
+			my6HMLMV9M90cY+6EjhbKF2UfBsGPbpZjBTnyyU18gE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xyha8IWkBEaNPo5PwL3OEb8tIz39lgsdT3z0lZLhS2c=
+			9y6itSS3z0XJvJv9Svq66+K7+W9gylX26EWMNryvNqA=
 			</data>
 		</dict>
 		<key>VisiblePlayerView.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Als1OssNfFclHMxhDlnsmP15SK3rg8g0BWGy425YFZU=
+			sIJJsDuQ18I7bzBY2b/MaLuT2eltJD94Kx2U95yAnz4=
 			</data>
 		</dict>
 		<key>VisiblePlayerView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RV17HbESruwIxpEqRJO97nSIapYRvfvJq2ZDz9cmWHU=
+			7wX6hcZprW8mpJAhXxvDclo/AJbXHto/YFECCHor0b8=
 			</data>
+		</dict>
+		<key>en.lproj/InStreamSDK.Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gHXR/592WvTLV1EOJri3CNMMopIgJwB0WnuzqI7B8yg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/InStreamSDK.Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a8bU55QtRImSQdu07k0caPEWiWVtSACST/OozKFZx7c=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
