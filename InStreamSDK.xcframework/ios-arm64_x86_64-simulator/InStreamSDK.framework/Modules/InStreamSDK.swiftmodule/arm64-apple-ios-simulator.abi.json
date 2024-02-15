@@ -135,12 +135,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1870,6 +1870,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -2989,12 +2996,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "InStreamSDK.DTKISLoggerDelegate?",
+                "printedName": "(any InStreamSDK.DTKISLoggerDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "DTKISLoggerDelegate",
-                    "printedName": "InStreamSDK.DTKISLoggerDelegate",
+                    "printedName": "any InStreamSDK.DTKISLoggerDelegate",
                     "usr": "s:11InStreamSDK19DTKISLoggerDelegateP"
                   }
                 ],
@@ -3050,7 +3057,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VisiblePlayer",
-                "printedName": "InStreamSDK.VisiblePlayer",
+                "printedName": "any InStreamSDK.VisiblePlayer",
                 "usr": "s:11InStreamSDK13VisiblePlayerP"
               },
               {
@@ -4094,7 +4101,9 @@
         "objc_name": "NSBundle",
         "declAttributes": [
           "ObjC",
+          "SynthesizedProtocol",
           "NonSendable",
+          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -4104,6 +4113,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4320,130 +4336,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 666,
-      "length": 13,
-      "value": "\"InStreamSDK\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 8,
-      "value": "\"Logger\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 739,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 768,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 969,
-      "length": 13,
-      "value": "\"InStreamSDK\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 994,
-      "length": 8,
-      "value": "\"Logger\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1070,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1271,
-      "length": 13,
-      "value": "\"InStreamSDK\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1296,
-      "length": 8,
-      "value": "\"Logger\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1344,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1373,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1590,
-      "length": 13,
-      "value": "\"InStreamSDK\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1615,
-      "length": 8,
-      "value": "\"Logger\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1663,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/DTKISLoggerDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 1692,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 511,
+      "offset": 507,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/NetworkMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 1013,
-      "length": 16,
-      "value": "\"NetworkMonitor\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
@@ -4504,142 +4401,16 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 821,
+      "offset": 817,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 865,
+      "offset": 861,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1448,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1491,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3608,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3680,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3836,
-      "length": 23,
-      "value": "\"[DTKIS] viewDidScroll\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 4268,
-      "length": 52,
-      "value": "\"[DTKIS] send mainPlayer in visiblePlayer if needed\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4355,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4389,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5156,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 5200,
-      "length": 57,
-      "value": "\"[DTKIS] can start visiblePlayer : \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 5256,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 5891,
-      "length": 29,
-      "value": "\"[DTKIS] close visiblePlayer\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6069,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6093,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
-      "kind": "StringLiteral",
-      "offset": 178,
-      "length": 28,
-      "value": "\"_____String not found_____\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
-      "kind": "StringLiteral",
-      "offset": 341,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
-      "kind": "StringLiteral",
-      "offset": 407,
-      "length": 39,
-      "value": "\"No localization found for key \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/String+Localize.swift",
-      "kind": "StringLiteral",
-      "offset": 445,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
@@ -4651,14 +4422,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 548,
       "length": 59,
       "value": "\"unable to find bundle with identifier \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 606,
       "length": 2,
       "value": "\"\""
     },
@@ -4672,7 +4443,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 511,
+      "offset": 507,
       "length": 5,
       "value": "false"
     },
@@ -4682,111 +4453,6 @@
       "offset": 119,
       "length": 11,
       "value": "\"InStreamSDK.DTKISConfig\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2003,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2084,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2166,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2252,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2336,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2461,
-      "length": 28,
-      "value": "\"InStreamVideoTableViewCell\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2538,
-      "length": 28,
-      "value": "\"InStreamVideoTableViewCell\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2641,
-      "length": 19,
-      "value": "\"CustomSwiftuiCell\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2915,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3039,
-      "length": 32,
-      "value": "\"indexPath.row \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3070,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3198,
-      "length": 28,
-      "value": "\"InStreamVideoTableViewCell\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3442,
-      "length": 19,
-      "value": "\"CustomSwiftuiCell\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3564,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InternalTableViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4002,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
@@ -4805,504 +4471,63 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 261,
+      "offset": 257,
       "length": 8,
       "value": "\"<head>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 298,
+      "offset": 294,
       "length": 9,
       "value": "\"<\/head>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 328,
       "length": 81,
       "value": "\"<meta name='viewport' content='width=device-width, initial-scale=1' id='mvp' \/>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 441,
-      "length": 45,
-      "value": "\"<link rel='canonical' href='[URL_REFERER]'>\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 519,
+      "offset": 438,
       "length": 36,
       "value": "\"<body style='margin:0;padding:0;'>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
       "kind": "StringLiteral",
-      "offset": 584,
+      "offset": 503,
       "length": 9,
       "value": "\"<\/body>\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1665,
-      "length": 198,
-      "value": "\"<iframe id='mediaVideo' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' scrolling='no' marginwidth='0' marginheight='0' hspace='0' vspace='0' allowfullscreen='false'\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1886,
-      "length": 50,
-      "value": "\"https:\/\/www.ultimedia.com\/deliver\/generic\/iframe\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1957,
-      "length": 8,
-      "value": "\"\/mdtk\/\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1992,
-      "length": 7,
-      "value": "\"\/src\/\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2026,
-      "length": 8,
-      "value": "\"\/zone\/\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2075,
-      "length": 21,
-      "value": "\"\/gdprconsentstring\/\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2141,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2214,
-      "length": 15,
-      "value": "\"?autoplay=yes\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2271,
-      "length": 14,
-      "value": "\"?autoplay=no\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2320,
-      "length": 12,
-      "value": "\"&tagparam=\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2374,
-      "length": 7,
-      "value": "\"src='\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2462,
-      "length": 5,
-      "value": "\"'\/>\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2581,
-      "length": 88,
-      "value": "\"javascript:document.getElementById('mediaVideo').contentWindow.postMessage('play','*')\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2806,
-      "length": 33,
-      "value": "\"Erreur loading video : \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/HTMLManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2838,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InStreamVideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 344,
+      "offset": 336,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/SwiftUI\/InStreamVideoTableViewCell.swift",
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1052,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 897,
-      "length": 14,
-      "value": "\"DTKIS_CONF_1\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 922,
-      "length": 14,
-      "value": "\"Invalid MDTK\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 951,
-      "length": 81,
-      "value": "\"apiKey (mdtk) must not be null, empty or blank. Please provide a valid Api Key.\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1092,
-      "length": 14,
-      "value": "\"DTKIS_CONF_2\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1117,
-      "length": 9,
-      "value": "\"No data\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1141,
-      "length": 140,
-      "value": "\"No data were provided for your Api key (mdtk), please check your Api Key is valid, and you do provide data for it in the digiteka console.\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1356,
-      "length": 14,
-      "value": "\"DTKIS_CONF_3\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1381,
-      "length": 30,
-      "value": "\"InStream not yet initialized\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1426,
-      "length": 89,
-      "value": "\"InStream SDK has not yet been initialized. Please call InStream.shared.initialize first\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1590,
-      "length": 13,
-      "value": "\"DTKIS_NET_1\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1614,
-      "length": 25,
-      "value": "\"Network connection lost\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1654,
-      "length": 26,
-      "value": "\"Network connection lost.\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1762,
-      "length": 13,
-      "value": "\"DTKIS_NET_2\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1786,
-      "length": 32,
-      "value": "\"Network connection unavailable\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/DTKISError.swift",
-      "kind": "StringLiteral",
-      "offset": 1833,
-      "length": 33,
-      "value": "\"Network connection unavailable.\""
+      "offset": 403,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 465,
+      "offset": 553,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1318,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1513,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1566,
-      "length": 14,
-      "value": "\"videoWebView\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1892,
-      "length": 24,
-      "value": "\"close_player_to_resume\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1975,
-      "length": 28,
-      "value": "\"[DTKIS] Videoiframe is nil\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2135,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2291,
-      "length": 55,
-      "value": "\"[DTKIS] move player in visiblePlayer \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2345,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2521,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2673,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2814,
-      "length": 32,
-      "value": "\"[DTKIS] visiblePlayer.subviews\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2933,
-      "length": 20,
-      "value": "\"[DTKIS] \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2952,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3003,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3038,
-      "length": 52,
-      "value": "\"[DTKIS] wkWebView \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3089,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3209,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3368,
-      "length": 36,
-      "value": "\"[DTKIS] viewDidScroll \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3402,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4087,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 4136,
-      "length": 33,
-      "value": "\"[DTKIS] viewDidScroll playVideo\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 741,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 775,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 843,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 868,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 913,
-      "length": 3,
-      "value": "9.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 938,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 983,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 1008,
-      "length": 3,
-      "value": "4.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1183,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 1333,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Utils\/VisiblePlayerSizeUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 1379,
-      "length": 4,
-      "value": "0.33"
-    },
-    {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISVisiblePlayerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 486,
+      "offset": 485,
       "length": 24,
       "value": "\"InStreamSDK.DTKISVisiblePlayerConfig\""
     },
@@ -5378,108 +4603,10 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 542,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1904,
+      "offset": 1880,
       "length": 25,
       "value": "\"yyyy-MM-dd hh:mm:ss.SSS\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2334,
-      "length": 120,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2355,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2376,
-      "length": 1,
-      "value": "\"[\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2410,
-      "length": 1,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2423,
-      "length": 1,
-      "value": "\" (\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2432,
-      "length": 1,
-      "value": "\")] \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2447,
-      "length": 5,
-      "value": "\"NIL\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2453,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2748,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2789,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2836,
-      "length": 8,
-      "value": "\".swift\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2852,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2859,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISMainPlayerConfig.swift",
@@ -5487,48 +4614,6 @@
       "offset": 533,
       "length": 21,
       "value": "\"InStreamSDK.DTKISMainPlayerConfig\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 437,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 610,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
-      "kind": "FloatLiteral",
-      "offset": 800,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
-      "kind": "FloatLiteral",
-      "offset": 976,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
-      "kind": "FloatLiteral",
-      "offset": 1143,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/UIView+Extensions.swift",
-      "kind": "FloatLiteral",
-      "offset": 1314,
-      "length": 3,
-      "value": "1.0"
     }
   ]
 }
