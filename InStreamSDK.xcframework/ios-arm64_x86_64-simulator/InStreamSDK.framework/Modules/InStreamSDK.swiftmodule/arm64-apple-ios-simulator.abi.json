@@ -560,8 +560,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "TOP_START",
-            "printedName": "TOP_START",
+            "name": "TopStart",
+            "printedName": "TopStart",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -591,14 +591,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO9TOP_STARTyA2CmF",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9TOP_STARTyA2CmF",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO8TopStartyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO8TopStartyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
             "kind": "Var",
-            "name": "TOP_END",
-            "printedName": "TOP_END",
+            "name": "TopEnd",
+            "printedName": "TopEnd",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -628,14 +628,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO7TOP_ENDyA2CmF",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO7TOP_ENDyA2CmF",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO6TopEndyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO6TopEndyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
             "kind": "Var",
-            "name": "BOTTOM_START",
-            "printedName": "BOTTOM_START",
+            "name": "BottomStart",
+            "printedName": "BottomStart",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -665,14 +665,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO12BOTTOM_STARTyA2CmF",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO12BOTTOM_STARTyA2CmF",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO11BottomStartyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO11BottomStartyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
             "kind": "Var",
-            "name": "BOTTOM_END",
-            "printedName": "BOTTOM_END",
+            "name": "BottomEnd",
+            "printedName": "BottomEnd",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -702,8 +702,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK21VisiblePlayerPositionO10BOTTOM_ENDyA2CmF",
-            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO10BOTTOM_ENDyA2CmF",
+            "usr": "s:11InStreamSDK21VisiblePlayerPositionO9BottomEndyA2CmF",
+            "mangledName": "$s11InStreamSDK21VisiblePlayerPositionO9BottomEndyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
@@ -1401,8 +1401,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "user",
-            "printedName": "user",
+            "name": "UserClick",
+            "printedName": "UserClick",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1432,14 +1432,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK8PlayModeO4useryA2CmF",
-            "mangledName": "$s11InStreamSDK8PlayModeO4useryA2CmF",
+            "usr": "s:11InStreamSDK8PlayModeO9UserClickyA2CmF",
+            "mangledName": "$s11InStreamSDK8PlayModeO9UserClickyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
             "kind": "Var",
-            "name": "auto",
-            "printedName": "auto",
+            "name": "Auto",
+            "printedName": "Auto",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1469,14 +1469,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK8PlayModeO4autoyA2CmF",
-            "mangledName": "$s11InStreamSDK8PlayModeO4autoyA2CmF",
+            "usr": "s:11InStreamSDK8PlayModeO4AutoyA2CmF",
+            "mangledName": "$s11InStreamSDK8PlayModeO4AutoyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
             "kind": "Var",
-            "name": "scroll",
-            "printedName": "scroll",
+            "name": "Scroll",
+            "printedName": "Scroll",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1506,57 +1506,58 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11InStreamSDK8PlayModeO6scrollyA2CmF",
-            "mangledName": "$s11InStreamSDK8PlayModeO6scrollyA2CmF",
+            "usr": "s:11InStreamSDK8PlayModeO6ScrollyA2CmF",
+            "mangledName": "$s11InStreamSDK8PlayModeO6ScrollyA2CmF",
             "moduleName": "InStreamSDK"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "InStreamSDK.PlayMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "PlayMode",
-                "printedName": "InStreamSDK.PlayMode",
-                "usr": "s:11InStreamSDK8PlayModeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PlayMode",
-                "printedName": "InStreamSDK.PlayMode",
-                "usr": "s:11InStreamSDK8PlayModeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:11InStreamSDK8PlayModeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11InStreamSDK8PlayModeO2eeoiySbAC_ACtFZ",
+            "declKind": "Constructor",
+            "usr": "s:11InStreamSDK8PlayModeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11InStreamSDK8PlayModeO8rawValueACSgSS_tcfc",
             "moduleName": "InStreamSDK",
-            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11InStreamSDK8PlayModeO9hashValueSivp",
-            "mangledName": "$s11InStreamSDK8PlayModeO9hashValueSivp",
+            "usr": "s:11InStreamSDK8PlayModeO8rawValueSSvp",
+            "mangledName": "$s11InStreamSDK8PlayModeO8rawValueSSvp",
             "moduleName": "InStreamSDK",
             "implicit": true,
             "accessors": [
@@ -1567,14 +1568,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11InStreamSDK8PlayModeO9hashValueSivg",
-                "mangledName": "$s11InStreamSDK8PlayModeO9hashValueSivg",
+                "usr": "s:11InStreamSDK8PlayModeO8rawValueSSvg",
+                "mangledName": "$s11InStreamSDK8PlayModeO8rawValueSSvg",
                 "moduleName": "InStreamSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1582,29 +1583,61 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                "name": "Array",
+                "printedName": "[InStreamSDK.PlayMode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayMode",
+                    "printedName": "InStreamSDK.PlayMode",
+                    "usr": "s:11InStreamSDK8PlayModeO"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:11InStreamSDK8PlayModeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s11InStreamSDK8PlayModeO4hash4intoys6HasherVz_tF",
+            "declKind": "Var",
+            "usr": "s:11InStreamSDK8PlayModeO8allCasesSayACGvpZ",
+            "mangledName": "$s11InStreamSDK8PlayModeO8allCasesSayACGvpZ",
             "moduleName": "InStreamSDK",
+            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InStreamSDK.PlayMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayMode",
+                        "printedName": "InStreamSDK.PlayMode",
+                        "usr": "s:11InStreamSDK8PlayModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11InStreamSDK8PlayModeO8allCasesSayACGvgZ",
+                "mangledName": "$s11InStreamSDK8PlayModeO8allCasesSayACGvgZ",
+                "moduleName": "InStreamSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -1614,6 +1647,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "String",
         "conformances": [
           {
             "kind": "Conformance",
@@ -1628,6 +1662,58 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InStreamSDK.PlayMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayMode",
+                        "printedName": "InStreamSDK.PlayMode",
+                        "usr": "s:11InStreamSDK8PlayModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -4345,91 +4431,91 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 199,
       "length": 11,
-      "value": "\"TOP_START\""
+      "value": "\"Top Start\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 229,
       "length": 9,
-      "value": "\"TOP_END\""
+      "value": "\"Top End\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 262,
       "length": 14,
-      "value": "\"BOTTOM_START\""
+      "value": "\"Bottom Start\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 298,
       "length": 12,
-      "value": "\"BOTTOM_END\""
+      "value": "\"Bottom End\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 199,
       "length": 11,
-      "value": "\"TOP_START\""
+      "value": "\"Top Start\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 229,
       "length": 9,
-      "value": "\"TOP_END\""
+      "value": "\"Top End\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 262,
       "length": 14,
-      "value": "\"BOTTOM_START\""
+      "value": "\"Bottom Start\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 298,
       "length": 12,
-      "value": "\"BOTTOM_END\""
+      "value": "\"Bottom End\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 817,
+      "offset": 813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/VisiblePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
-      "offset": 402,
+      "offset": 371,
       "length": 26,
       "value": "\"fr.beapp.dtk.InStreamSDK\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
-      "offset": 548,
+      "offset": 517,
       "length": 59,
       "value": "\"unable to find bundle with identifier \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Extensions\/Bundle+Module.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 575,
       "length": 2,
       "value": "\"\""
     },
@@ -4512,22 +4598,71 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 12,
+      "value": "\"User click\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 6,
+      "value": "\"Auto\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 8,
+      "value": "\"Scroll\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 12,
+      "value": "\"User click\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 6,
+      "value": "\"Auto\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 8,
+      "value": "\"Scroll\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 403,
+      "offset": 447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/UI\/MainPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 553,
+      "offset": 773,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISVisiblePlayerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 485,
+      "offset": 481,
       "length": 24,
       "value": "\"InStreamSDK.DTKISVisiblePlayerConfig\""
     },
@@ -4611,7 +4746,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/InStreamSDK\/Core\/Config\/DTKISMainPlayerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 533,
+      "offset": 543,
       "length": 21,
       "value": "\"InStreamSDK.DTKISMainPlayerConfig\""
     }

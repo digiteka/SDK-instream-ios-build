@@ -319,7 +319,7 @@ SWIFT_CLASS("_TtC11InStreamSDK11DTKISConfig")
 ///
 /// \param tagparam optional advertisement params
 ///
-/// \param playMode .user : user must tap to play, .auto : autoplay when loaded, .scroll : scroll 50% to play auto
+/// \param playMode .UserClick : UserClick must tap to play, .Auto : autoplay when loaded, .Scroll : Scroll 50% to play auto
 ///
 SWIFT_CLASS("_TtC11InStreamSDK21DTKISMainPlayerConfig")
 @interface DTKISMainPlayerConfig : NSObject
@@ -328,7 +328,7 @@ SWIFT_CLASS("_TtC11InStreamSDK21DTKISMainPlayerConfig")
 @end
 
 
-/// \param playerPosition position of the visible player (TOP_START, TOP_END, BOTTOM_START, BOTTOM_END)
+/// \param playerPosition position of the visible player (TopStart, TopEnd, BottomStart, BottomEnd)
 ///
 /// \param widthPercent width of the player in percentage of the parentView
 ///
