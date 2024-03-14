@@ -31,10 +31,10 @@ public struct InStreamScrollVStack<Content, Data> : SwiftUI.UIViewControllerRepr
   public typealias UIViewControllerType = UIKit.UIViewController
 }
 public enum VisiblePlayerPosition : Swift.String, Swift.CaseIterable {
-  case TOP_START
-  case TOP_END
-  case BOTTOM_START
-  case BOTTOM_END
+  case TopStart
+  case TopEnd
+  case BottomStart
+  case BottomEnd
   public init?(rawValue: Swift.String)
   public typealias AllCases = [InStreamSDK.VisiblePlayerPosition]
   public typealias RawValue = Swift.String
@@ -57,13 +57,17 @@ extension Foundation.Bundle {
   public init(mdtk: Swift.String, debugMode: Swift.Bool = false)
   @objc deinit
 }
-public enum PlayMode {
-  case user
-  case auto
-  case scroll
-  public static func == (a: InStreamSDK.PlayMode, b: InStreamSDK.PlayMode) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+public enum PlayMode : Swift.String, Swift.CaseIterable {
+  case UserClick
+  case Auto
+  case Scroll
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [InStreamSDK.PlayMode]
+  public typealias RawValue = Swift.String
+  public static var allCases: [InStreamSDK.PlayMode] {
+    get
+  }
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -93,7 +97,7 @@ public enum WidthProportion {
   public var ratio: InStreamSDK.Ratio
   public var horizontalMargin: CoreFoundation.CGFloat
   public var verticalMargin: CoreFoundation.CGFloat
-  public init(playerPosition: InStreamSDK.VisiblePlayerPosition = .BOTTOM_END, widthPercent: InStreamSDK.WidthProportion, ratio: InStreamSDK.Ratio, horizontalMargin: CoreFoundation.CGFloat, verticalMargin: CoreFoundation.CGFloat)
+  public init(playerPosition: InStreamSDK.VisiblePlayerPosition = .BottomEnd, widthPercent: InStreamSDK.WidthProportion, ratio: InStreamSDK.Ratio, horizontalMargin: CoreFoundation.CGFloat, verticalMargin: CoreFoundation.CGFloat)
   @objc deinit
 }
 extension ObjectiveC.NSObject {
@@ -138,3 +142,4 @@ extension InStreamSDK.VisiblePlayerPosition : Swift.Hashable {}
 extension InStreamSDK.VisiblePlayerPosition : Swift.RawRepresentable {}
 extension InStreamSDK.PlayMode : Swift.Equatable {}
 extension InStreamSDK.PlayMode : Swift.Hashable {}
+extension InStreamSDK.PlayMode : Swift.RawRepresentable {}
