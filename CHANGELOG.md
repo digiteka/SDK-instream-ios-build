@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1 / 0] - 2026-05-11
+* fix : documentation
+
+
 ## [1.0.0 / 6] - 2024-03-14
 * fix : rename PlayMode and VisiblePlayerPosition enum values
 * fix : make PlayerPosition enum CaseIterable and String
