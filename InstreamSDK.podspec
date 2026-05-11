@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'InstreamSDK'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'This Pod allows you to handle Digiteka video views with Picture in Picture mode.'
     
     s.homepage         = 'https://github.com/digiteka/SDK-instream-ios-build.git'
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.requires_arc    = true
     s.static_framework = true
     
-    s.vendored_frameworks = "InstreamSDK.xcframework"
+    s.vendored_frameworks = "InStreamSDK.xcframework"
     
 end
